@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1363422D176D34BB00ABA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422C176D34BB00ABA72D /* Foundation.framework */; };
+		1363422F176D34BB00ABA72D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422E176D34BB00ABA72D /* CoreGraphics.framework */; };
+		13634231176D34BB00ABA72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13634230176D34BB00ABA72D /* UIKit.framework */; };
+		13634237176D34BB00ABA72D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13634235176D34BB00ABA72D /* InfoPlist.strings */; };
+		13634239176D34BB00ABA72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13634238176D34BB00ABA72D /* main.m */; };
+		1363423D176D34BB00ABA72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1363423C176D34BB00ABA72D /* AppDelegate.m */; };
+		13634240176D34BB00ABA72D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1363423E176D34BB00ABA72D /* Main_iPhone.storyboard */; };
+		13634243176D34BB00ABA72D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13634241176D34BB00ABA72D /* Main_iPad.storyboard */; };
+		13634246176D34BB00ABA72D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13634245176D34BB00ABA72D /* ViewController.m */; };
+		13634248176D34BB00ABA72D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13634247176D34BB00ABA72D /* Images.xcassets */; };
+		1363424F176D34BB00ABA72D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363424E176D34BB00ABA72D /* XCTest.framework */; };
+		13634250176D34BB00ABA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422C176D34BB00ABA72D /* Foundation.framework */; };
+		13634251176D34BB00ABA72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13634230176D34BB00ABA72D /* UIKit.framework */; };
+		13634259176D34BB00ABA72D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13634257176D34BB00ABA72D /* InfoPlist.strings */; };
+		1363425B176D34BC00ABA72D /* DresseriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1363425A176D34BC00ABA72D /* DresseriaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13634252176D34BB00ABA72D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13634221176D34BB00ABA72D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13634228176D34BB00ABA72D;
+			remoteInfo = Dresseria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13634229176D34BB00ABA72D /* Dresseria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dresseria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1363422C176D34BB00ABA72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1363422E176D34BB00ABA72D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13634230176D34BB00ABA72D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13634234176D34BB00ABA72D /* Dresseria-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dresseria-Info.plist"; sourceTree = "<group>"; };
+		13634236176D34BB00ABA72D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13634238176D34BB00ABA72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1363423A176D34BB00ABA72D /* Dresseria-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dresseria-Prefix.pch"; sourceTree = "<group>"; };
+		1363423B176D34BB00ABA72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1363423C176D34BB00ABA72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1363423F176D34BB00ABA72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		13634242176D34BB00ABA72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		13634244176D34BB00ABA72D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13634245176D34BB00ABA72D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13634247176D34BB00ABA72D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1363424D176D34BB00ABA72D /* DresseriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DresseriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1363424E176D34BB00ABA72D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13634256176D34BB00ABA72D /* DresseriaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DresseriaTests-Info.plist"; sourceTree = "<group>"; };
+		13634258176D34BB00ABA72D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1363425A176D34BC00ABA72D /* DresseriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DresseriaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13634226176D34BB00ABA72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1363422F176D34BB00ABA72D /* CoreGraphics.framework in Frameworks */,
+				13634231176D34BB00ABA72D /* UIKit.framework in Frameworks */,
+				1363422D176D34BB00ABA72D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1363424A176D34BB00ABA72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1363424F176D34BB00ABA72D /* XCTest.framework in Frameworks */,
+				13634251176D34BB00ABA72D /* UIKit.framework in Frameworks */,
+				13634250176D34BB00ABA72D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13634220176D34BB00ABA72D = {
+			isa = PBXGroup;
+			children = (
+				13634232176D34BB00ABA72D /* Dresseria */,
+				13634254176D34BB00ABA72D /* DresseriaTests */,
+				1363422B176D34BB00ABA72D /* Frameworks */,
+				1363422A176D34BB00ABA72D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1363422A176D34BB00ABA72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13634229176D34BB00ABA72D /* Dresseria.app */,
+				1363424D176D34BB00ABA72D /* DresseriaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1363422B176D34BB00ABA72D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1363422C176D34BB00ABA72D /* Foundation.framework */,
+				1363422E176D34BB00ABA72D /* CoreGraphics.framework */,
+				13634230176D34BB00ABA72D /* UIKit.framework */,
+				1363424E176D34BB00ABA72D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13634232176D34BB00ABA72D /* Dresseria */ = {
+			isa = PBXGroup;
+			children = (
+				1363423B176D34BB00ABA72D /* AppDelegate.h */,
+				1363423C176D34BB00ABA72D /* AppDelegate.m */,
+				1363423E176D34BB00ABA72D /* Main_iPhone.storyboard */,
+				13634241176D34BB00ABA72D /* Main_iPad.storyboard */,
+				13634244176D34BB00ABA72D /* ViewController.h */,
+				13634245176D34BB00ABA72D /* ViewController.m */,
+				13634247176D34BB00ABA72D /* Images.xcassets */,
+				13634233176D34BB00ABA72D /* Supporting Files */,
+			);
+			path = Dresseria;
+			sourceTree = "<group>";
+		};
+		13634233176D34BB00ABA72D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13634234176D34BB00ABA72D /* Dresseria-Info.plist */,
+				13634235176D34BB00ABA72D /* InfoPlist.strings */,
+				13634238176D34BB00ABA72D /* main.m */,
+				1363423A176D34BB00ABA72D /* Dresseria-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13634254176D34BB00ABA72D /* DresseriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1363425A176D34BC00ABA72D /* DresseriaTests.m */,
+				13634255176D34BB00ABA72D /* Supporting Files */,
+			);
+			path = DresseriaTests;
+			sourceTree = "<group>";
+		};
+		13634255176D34BB00ABA72D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13634256176D34BB00ABA72D /* DresseriaTests-Info.plist */,
+				13634257176D34BB00ABA72D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13634228176D34BB00ABA72D /* Dresseria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1363425E176D34BC00ABA72D /* Build configuration list for PBXNativeTarget "Dresseria" */;
+			buildPhases = (
+				13634225176D34BB00ABA72D /* Sources */,
+				13634226176D34BB00ABA72D /* Frameworks */,
+				13634227176D34BB00ABA72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dresseria;
+			productName = Dresseria;
+			productReference = 13634229176D34BB00ABA72D /* Dresseria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1363424C176D34BB00ABA72D /* DresseriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13634261176D34BC00ABA72D /* Build configuration list for PBXNativeTarget "DresseriaTests" */;
+			buildPhases = (
+				13634249176D34BB00ABA72D /* Sources */,
+				1363424A176D34BB00ABA72D /* Frameworks */,
+				1363424B176D34BB00ABA72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13634253176D34BB00ABA72D /* PBXTargetDependency */,
+			);
+			name = DresseriaTests;
+			productName = DresseriaTests;
+			productReference = 1363424D176D34BB00ABA72D /* DresseriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13634221176D34BB00ABA72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adriel Service";
+				TargetAttributes = {
+					13634228176D34BB00ABA72D = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					1363424C176D34BB00ABA72D = {
+						TestTargetID = 13634228176D34BB00ABA72D;
+					};
+				};
+			};
+			buildConfigurationList = 13634224176D34BB00ABA72D /* Build configuration list for PBXProject "Dresseria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13634220176D34BB00ABA72D;
+			productRefGroup = 1363422A176D34BB00ABA72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13634228176D34BB00ABA72D /* Dresseria */,
+				1363424C176D34BB00ABA72D /* DresseriaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13634227176D34BB00ABA72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13634243176D34BB00ABA72D /* Main_iPad.storyboard in Resources */,
+				13634248176D34BB00ABA72D /* Images.xcassets in Resources */,
+				13634240176D34BB00ABA72D /* Main_iPhone.storyboard in Resources */,
+				13634237176D34BB00ABA72D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1363424B176D34BB00ABA72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13634259176D34BB00ABA72D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13634225176D34BB00ABA72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13634246176D34BB00ABA72D /* ViewController.m in Sources */,
+				1363423D176D34BB00ABA72D /* AppDelegate.m in Sources */,
+				13634239176D34BB00ABA72D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13634249176D34BB00ABA72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1363425B176D34BC00ABA72D /* DresseriaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13634253176D34BB00ABA72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13634228176D34BB00ABA72D /* Dresseria */;
+			targetProxy = 13634252176D34BB00ABA72D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13634235176D34BB00ABA72D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13634236176D34BB00ABA72D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1363423E176D34BB00ABA72D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1363423F176D34BB00ABA72D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		13634241176D34BB00ABA72D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13634242176D34BB00ABA72D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		13634257176D34BB00ABA72D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13634258176D34BB00ABA72D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1363425C176D34BC00ABA72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1363425D176D34BC00ABA72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1363425F176D34BC00ABA72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dresseria/Dresseria-Prefix.pch";
+				INFOPLIST_FILE = "Dresseria/Dresseria-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13634260176D34BC00ABA72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dresseria/Dresseria-Prefix.pch";
+				INFOPLIST_FILE = "Dresseria/Dresseria-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13634262176D34BC00ABA72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dresseria.app/Dresseria";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dresseria/Dresseria-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DresseriaTests/DresseriaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13634263176D34BC00ABA72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dresseria.app/Dresseria";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dresseria/Dresseria-Prefix.pch";
+				INFOPLIST_FILE = "DresseriaTests/DresseriaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13634224176D34BB00ABA72D /* Build configuration list for PBXProject "Dresseria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1363425C176D34BC00ABA72D /* Debug */,
+				1363425D176D34BC00ABA72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1363425E176D34BC00ABA72D /* Build configuration list for PBXNativeTarget "Dresseria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1363425F176D34BC00ABA72D /* Debug */,
+				13634260176D34BC00ABA72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13634261176D34BC00ABA72D /* Build configuration list for PBXNativeTarget "DresseriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13634262176D34BC00ABA72D /* Debug */,
+				13634263176D34BC00ABA72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13634221176D34BB00ABA72D /* Project object */;
+}
