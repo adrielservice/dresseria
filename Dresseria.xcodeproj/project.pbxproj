@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134A947F177167980029B5E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A947E177167980029B5E8 /* CoreLocation.framework */; };
+		134A9481177168090029B5E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A9480177168090029B5E8 /* MapKit.framework */; };
 		1363422D176D34BB00ABA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422C176D34BB00ABA72D /* Foundation.framework */; };
 		1363422F176D34BB00ABA72D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422E176D34BB00ABA72D /* CoreGraphics.framework */; };
 		13634231176D34BB00ABA72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13634230176D34BB00ABA72D /* UIKit.framework */; };
@@ -15,13 +17,16 @@
 		1363423D176D34BB00ABA72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1363423C176D34BB00ABA72D /* AppDelegate.m */; };
 		13634240176D34BB00ABA72D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1363423E176D34BB00ABA72D /* Main_iPhone.storyboard */; };
 		13634243176D34BB00ABA72D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13634241176D34BB00ABA72D /* Main_iPad.storyboard */; };
-		13634246176D34BB00ABA72D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13634245176D34BB00ABA72D /* ViewController.m */; };
+		13634246176D34BB00ABA72D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13634245176D34BB00ABA72D /* MainViewController.m */; };
 		13634248176D34BB00ABA72D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13634247176D34BB00ABA72D /* Images.xcassets */; };
 		1363424F176D34BB00ABA72D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363424E176D34BB00ABA72D /* XCTest.framework */; };
 		13634250176D34BB00ABA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422C176D34BB00ABA72D /* Foundation.framework */; };
 		13634251176D34BB00ABA72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13634230176D34BB00ABA72D /* UIKit.framework */; };
 		13634259176D34BB00ABA72D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13634257176D34BB00ABA72D /* InfoPlist.strings */; };
 		1363425B176D34BC00ABA72D /* DresseriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1363425A176D34BC00ABA72D /* DresseriaTests.m */; };
+		13F5CFF417716350004C4BE5 /* WeatherAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F5CFF317716350004C4BE5 /* WeatherAdapter.m */; };
+		13F5CFF517716350004C4BE5 /* WeatherAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F5CFF317716350004C4BE5 /* WeatherAdapter.m */; };
+		1955ACB83125447A8E35E909 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14548ADD982D45CFA1090982 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		134A947E177167980029B5E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		134A9480177168090029B5E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		13634229176D34BB00ABA72D /* Dresseria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dresseria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1363422C176D34BB00ABA72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1363422E176D34BB00ABA72D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +54,18 @@
 		1363423C176D34BB00ABA72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1363423F176D34BB00ABA72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		13634242176D34BB00ABA72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		13634244176D34BB00ABA72D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13634245176D34BB00ABA72D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13634244176D34BB00ABA72D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		13634245176D34BB00ABA72D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		13634247176D34BB00ABA72D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1363424D176D34BB00ABA72D /* DresseriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DresseriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1363424E176D34BB00ABA72D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		13634256176D34BB00ABA72D /* DresseriaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DresseriaTests-Info.plist"; sourceTree = "<group>"; };
 		13634258176D34BB00ABA72D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1363425A176D34BC00ABA72D /* DresseriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DresseriaTests.m; sourceTree = "<group>"; };
+		13F5CFF217716350004C4BE5 /* WeatherAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherAdapter.h; sourceTree = "<group>"; };
+		13F5CFF317716350004C4BE5 /* WeatherAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherAdapter.m; sourceTree = "<group>"; };
+		14548ADD982D45CFA1090982 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09BBD7EF4DE4491A81E59FD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +73,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134A9481177168090029B5E8 /* MapKit.framework in Frameworks */,
+				134A947F177167980029B5E8 /* CoreLocation.framework in Frameworks */,
 				1363422F176D34BB00ABA72D /* CoreGraphics.framework in Frameworks */,
 				13634231176D34BB00ABA72D /* UIKit.framework in Frameworks */,
 				1363422D176D34BB00ABA72D /* Foundation.framework in Frameworks */,
+				1955ACB83125447A8E35E909 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,7 @@
 				13634254176D34BB00ABA72D /* DresseriaTests */,
 				1363422B176D34BB00ABA72D /* Frameworks */,
 				1363422A176D34BB00ABA72D /* Products */,
+				F09BBD7EF4DE4491A81E59FD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +118,13 @@
 		1363422B176D34BB00ABA72D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				134A9480177168090029B5E8 /* MapKit.framework */,
+				134A947E177167980029B5E8 /* CoreLocation.framework */,
 				1363422C176D34BB00ABA72D /* Foundation.framework */,
 				1363422E176D34BB00ABA72D /* CoreGraphics.framework */,
 				13634230176D34BB00ABA72D /* UIKit.framework */,
 				1363424E176D34BB00ABA72D /* XCTest.framework */,
+				14548ADD982D45CFA1090982 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +132,13 @@
 		13634232176D34BB00ABA72D /* Dresseria */ = {
 			isa = PBXGroup;
 			children = (
+				13F5CFF117716303004C4BE5 /* weather */,
 				1363423B176D34BB00ABA72D /* AppDelegate.h */,
 				1363423C176D34BB00ABA72D /* AppDelegate.m */,
 				1363423E176D34BB00ABA72D /* Main_iPhone.storyboard */,
 				13634241176D34BB00ABA72D /* Main_iPad.storyboard */,
-				13634244176D34BB00ABA72D /* ViewController.h */,
-				13634245176D34BB00ABA72D /* ViewController.m */,
+				13634244176D34BB00ABA72D /* MainViewController.h */,
+				13634245176D34BB00ABA72D /* MainViewController.m */,
 				13634247176D34BB00ABA72D /* Images.xcassets */,
 				13634233176D34BB00ABA72D /* Supporting Files */,
 			);
@@ -155,6 +174,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		13F5CFF117716303004C4BE5 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				13F5CFF217716350004C4BE5 /* WeatherAdapter.h */,
+				13F5CFF317716350004C4BE5 /* WeatherAdapter.m */,
+			);
+			name = weather;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1363425E176D34BC00ABA72D /* Build configuration list for PBXNativeTarget "Dresseria" */;
 			buildPhases = (
+				0AF829892A614F8AA5212B5B /* Check Pods Manifest.lock */,
 				13634225176D34BB00ABA72D /* Sources */,
 				13634226176D34BB00ABA72D /* Frameworks */,
 				13634227176D34BB00ABA72D /* Resources */,
+				12340F82A72D4D86AA95FBE5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,12 +285,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AF829892A614F8AA5212B5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		12340F82A72D4D86AA95FBE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13634225176D34BB00ABA72D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13634246176D34BB00ABA72D /* ViewController.m in Sources */,
+				13F5CFF417716350004C4BE5 /* WeatherAdapter.m in Sources */,
+				13634246176D34BB00ABA72D /* MainViewController.m in Sources */,
 				1363423D176D34BB00ABA72D /* AppDelegate.m in Sources */,
 				13634239176D34BB00ABA72D /* main.m in Sources */,
 			);
@@ -270,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F5CFF517716350004C4BE5 /* WeatherAdapter.m in Sources */,
 				1363425B176D34BC00ABA72D /* DresseriaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +455,7 @@
 		};
 		1363425F176D34BC00ABA72D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09BBD7EF4DE4491A81E59FD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -405,6 +469,7 @@
 		};
 		13634260176D34BC00ABA72D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09BBD7EF4DE4491A81E59FD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,6 +540,7 @@
 				13634260176D34BC00ABA72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13634261176D34BC00ABA72D /* Build configuration list for PBXNativeTarget "DresseriaTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +549,7 @@
 				13634263176D34BC00ABA72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

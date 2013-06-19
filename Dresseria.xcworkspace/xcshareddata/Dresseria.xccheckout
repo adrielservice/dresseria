@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>249B9382-C0CE-4130-903C-3E0E27277695</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dresseria</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>294AB5A8-AFB5-46D0-BDF9-5107400765D1</key>
+		<string>https://github.com/adrielservice/dresseria.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dresseria.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>294AB5A8-AFB5-46D0-BDF9-5107400765D1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adrielservice/dresseria.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>294AB5A8-AFB5-46D0-BDF9-5107400765D1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>294AB5A8-AFB5-46D0-BDF9-5107400765D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dresseria</string>
+		</dict>
+	</array>
+</dict>
+</plist>
