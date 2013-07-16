@@ -9,6 +9,8 @@
 #import "MainViewController.h"
 #import <CoreLocation/CoreLocation.h>
 
+#import "ReceiveViewController.h"
+
 @interface MainViewController ()
 
 @end
@@ -21,6 +23,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     [self initLocationManager];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 - (void) initLocationManager
@@ -68,26 +75,45 @@
 
 }
 
+#define BTN_TITLE_PICTURE  @"Take a Picture..."
+#define BTN_TITLE_SCAN @"Scan Code"
+#define BTN_TITLE_HELP @"?"
+#define BTN_TITLE_CANCEL @"Cancel Button"
+
 - (IBAction) newItem:(id)sender {
     NSString *actionSheetTitle = @"New Item..."; //Action Sheet Title
-    NSString *destructiveTitle = @"Cancel"; //Action Sheet Button Titles
-    NSString *other1 = @"Take a Picture...";
-    NSString *other2 = @"Scan Code";
-    NSString *other3 = @"?";
-    NSString *cancelTitle = @"Cancel Button";
+    NSString *other1 = BTN_TITLE_PICTURE;
+    NSString *other2 = BTN_TITLE_SCAN;
+    NSString *other3 = BTN_TITLE_HELP;
+    NSString *cancelTitle = BTN_TITLE_CANCEL;
     UIActionSheet *actionSheet = [[UIActionSheet alloc]
                                   initWithTitle:actionSheetTitle
                                   delegate:self
                                   cancelButtonTitle:cancelTitle
-                                  destructiveButtonTitle:destructiveTitle
+                                  destructiveButtonTitle:nil
                                   otherButtonTitles:other1, other2, other3, nil];
     [actionSheet showInView:self.view];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    
+    //Get the name of the current pressed button
+    NSString *buttonTitle = [actionSheet buttonTitleAtIndex:buttonIndex];
+
+    if ([buttonTitle isEqualToString:BTN_TITLE_PICTURE]) {
+        NSLog(@"Other %@ pressed", BTN_TITLE_PICTURE);
+    }
+    if ([buttonTitle isEqualToString:BTN_TITLE_SCAN]) {
+        NSLog(@"Other %@ pressed", BTN_TITLE_SCAN);
+        
+        
+    }
+    if ([buttonTitle isEqualToString:BTN_TITLE_HELP]) {
+        NSLog(@"Other %@ pressed", BTN_TITLE_HELP);
+    }
+    if ([buttonTitle isEqualToString:BTN_TITLE_CANCEL]) {
+        NSLog(@"Cancel pressed --> Cancel ActionSheet");
+    }
 }
 
 @end
