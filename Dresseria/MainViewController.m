@@ -68,6 +68,22 @@
 
 }
 
+- (IBAction) newItem:(id)sender {
+    NSString *actionSheetTitle = @"New Item..."; //Action Sheet Title
+    NSString *destructiveTitle = @"Cancel"; //Action Sheet Button Titles
+    NSString *other1 = @"Take a Picture...";
+    NSString *other2 = @"Scan Code";
+    NSString *other3 = @"?";
+    NSString *cancelTitle = @"Cancel Button";
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]
+                                  initWithTitle:actionSheetTitle
+                                  delegate:self
+                                  cancelButtonTitle:cancelTitle
+                                  destructiveButtonTitle:destructiveTitle
+                                  otherButtonTitles:other1, other2, other3, nil];
+    [actionSheet showInView:self.view];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1306828E178BEB450093FDD0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1306828D178BEB450093FDD0 /* AVFoundation.framework */; };
+		13068293178BEC1B0093FDD0 /* ReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13068290178BEC1B0093FDD0 /* ReceiveViewController.m */; };
+		13068294178BEC1B0093FDD0 /* ReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13068290178BEC1B0093FDD0 /* ReceiveViewController.m */; };
+		13068295178BEC1B0093FDD0 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13068292178BEC1B0093FDD0 /* SessionManager.m */; };
+		13068296178BEC1B0093FDD0 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13068292178BEC1B0093FDD0 /* SessionManager.m */; };
 		134A947F177167980029B5E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A947E177167980029B5E8 /* CoreLocation.framework */; };
 		134A9481177168090029B5E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A9480177168090029B5E8 /* MapKit.framework */; };
 		1363422D176D34BB00ABA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422C176D34BB00ABA72D /* Foundation.framework */; };
@@ -40,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1306828D178BEB450093FDD0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1306828F178BEC1B0093FDD0 /* ReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveViewController.h; sourceTree = "<group>"; };
+		13068290178BEC1B0093FDD0 /* ReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveViewController.m; sourceTree = "<group>"; };
+		13068291178BEC1B0093FDD0 /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		13068292178BEC1B0093FDD0 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		134A947E177167980029B5E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		134A9480177168090029B5E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		13634229176D34BB00ABA72D /* Dresseria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dresseria.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1306828E178BEB450093FDD0 /* AVFoundation.framework in Frameworks */,
 				134A9481177168090029B5E8 /* MapKit.framework in Frameworks */,
 				134A947F177167980029B5E8 /* CoreLocation.framework in Frameworks */,
 				1363422F176D34BB00ABA72D /* CoreGraphics.framework in Frameworks */,
@@ -95,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1306828C178BEB160093FDD0 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				1306828F178BEC1B0093FDD0 /* ReceiveViewController.h */,
+				13068290178BEC1B0093FDD0 /* ReceiveViewController.m */,
+				13068291178BEC1B0093FDD0 /* SessionManager.h */,
+				13068292178BEC1B0093FDD0 /* SessionManager.m */,
+			);
+			name = Scanner;
+			sourceTree = "<group>";
+		};
 		13634220176D34BB00ABA72D = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +140,7 @@
 		1363422B176D34BB00ABA72D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1306828D178BEB450093FDD0 /* AVFoundation.framework */,
 				134A9480177168090029B5E8 /* MapKit.framework */,
 				134A947E177167980029B5E8 /* CoreLocation.framework */,
 				1363422C176D34BB00ABA72D /* Foundation.framework */,
@@ -132,6 +155,7 @@
 		13634232176D34BB00ABA72D /* Dresseria */ = {
 			isa = PBXGroup;
 			children = (
+				1306828C178BEB160093FDD0 /* Scanner */,
 				13F5CFF117716303004C4BE5 /* weather */,
 				1363423B176D34BB00ABA72D /* AppDelegate.h */,
 				1363423C176D34BB00ABA72D /* AppDelegate.m */,
@@ -321,6 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13068295178BEC1B0093FDD0 /* SessionManager.m in Sources */,
+				13068293178BEC1B0093FDD0 /* ReceiveViewController.m in Sources */,
 				13F5CFF417716350004C4BE5 /* WeatherAdapter.m in Sources */,
 				13634246176D34BB00ABA72D /* MainViewController.m in Sources */,
 				1363423D176D34BB00ABA72D /* AppDelegate.m in Sources */,
@@ -333,6 +359,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13F5CFF517716350004C4BE5 /* WeatherAdapter.m in Sources */,
+				13068294178BEC1B0093FDD0 /* ReceiveViewController.m in Sources */,
+				13068296178BEC1B0093FDD0 /* SessionManager.m in Sources */,
 				1363425B176D34BC00ABA72D /* DresseriaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

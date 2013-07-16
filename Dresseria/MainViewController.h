@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface MainViewController : UIViewController<CLLocationManagerDelegate> {
+@interface MainViewController : UIViewController<CLLocationManagerDelegate, UIActionSheetDelegate> {
     IBOutlet CLLocationManager *locationManager;
 }
 
 - (IBAction) updateWeather:(id)sender;
+
+- (IBAction) newItem:(id)sender;
 
 @end
