@@ -29,6 +29,8 @@
 		13634251176D34BB00ABA72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13634230176D34BB00ABA72D /* UIKit.framework */; };
 		13634259176D34BB00ABA72D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13634257176D34BB00ABA72D /* InfoPlist.strings */; };
 		1363425B176D34BC00ABA72D /* DresseriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1363425A176D34BC00ABA72D /* DresseriaTests.m */; };
+		1377DA691796445B0011DDA4 /* ReceiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1377DA671796445B0011DDA4 /* ReceiveViewController.xib */; };
+		1377DA6A1796445B0011DDA4 /* ReceiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1377DA671796445B0011DDA4 /* ReceiveViewController.xib */; };
 		13F5CFF417716350004C4BE5 /* WeatherAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F5CFF317716350004C4BE5 /* WeatherAdapter.m */; };
 		13F5CFF517716350004C4BE5 /* WeatherAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F5CFF317716350004C4BE5 /* WeatherAdapter.m */; };
 		1955ACB83125447A8E35E909 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14548ADD982D45CFA1090982 /* libPods.a */; };
@@ -72,6 +74,7 @@
 		13634256176D34BB00ABA72D /* DresseriaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DresseriaTests-Info.plist"; sourceTree = "<group>"; };
 		13634258176D34BB00ABA72D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1363425A176D34BC00ABA72D /* DresseriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DresseriaTests.m; sourceTree = "<group>"; };
+		1377DA681796445B0011DDA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReceiveViewController.xib; sourceTree = "<group>"; };
 		13F5CFF217716350004C4BE5 /* WeatherAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherAdapter.h; sourceTree = "<group>"; };
 		13F5CFF317716350004C4BE5 /* WeatherAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherAdapter.m; sourceTree = "<group>"; };
 		14548ADD982D45CFA1090982 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +112,7 @@
 		1306828C178BEB160093FDD0 /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				1377DA671796445B0011DDA4 /* ReceiveViewController.xib */,
 				1306828F178BEC1B0093FDD0 /* ReceiveViewController.h */,
 				13068290178BEC1B0093FDD0 /* ReceiveViewController.m */,
 				13068291178BEC1B0093FDD0 /* SessionManager.h */,
@@ -293,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13634243176D34BB00ABA72D /* Main_iPad.storyboard in Resources */,
+				1377DA691796445B0011DDA4 /* ReceiveViewController.xib in Resources */,
 				13634248176D34BB00ABA72D /* Images.xcassets in Resources */,
 				13634240176D34BB00ABA72D /* Main_iPhone.storyboard in Resources */,
 				13634237176D34BB00ABA72D /* InfoPlist.strings in Resources */,
@@ -303,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1377DA6A1796445B0011DDA4 /* ReceiveViewController.xib in Resources */,
 				13634259176D34BB00ABA72D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +412,14 @@
 				13634258176D34BB00ABA72D /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1377DA671796445B0011DDA4 /* ReceiveViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1377DA681796445B0011DDA4 /* en */,
+			);
+			name = ReceiveViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -179,7 +179,8 @@
 		[_captureSession startRunning];
 		_running = YES;
 		
-		[[self metadataOutput] setMetadataObjectTypes:[NSArray arrayWithObjects:AVMetadataObjectTypeQRCode, nil]];
+		[[self metadataOutput] setMetadataObjectTypes:[NSArray arrayWithObjects:AVMetadataObjectTypeUPCECode, AVMetadataObjectTypeCode39Code, AVMetadataObjectTypeCode39Mod43Code, AVMetadataObjectTypeEAN13Code, AVMetadataObjectTypeEAN8Code, AVMetadataObjectTypeCode93Code, AVMetadataObjectTypeCode128Code, AVMetadataObjectTypePDF417Code, AVMetadataObjectTypeQRCode, AVMetadataObjectTypeAztecCode, nil]];
+       
 	});
 }
 

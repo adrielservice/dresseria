@@ -106,6 +106,10 @@
     if ([buttonTitle isEqualToString:BTN_TITLE_SCAN]) {
         NSLog(@"Other %@ pressed", BTN_TITLE_SCAN);
         
+        ReceiveViewController *controller = [[ReceiveViewController alloc] initWithNibName:@"ReceiveViewController" bundle:nil];
+        // controller.delegate = self;
+        controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        [self presentViewController:controller animated:YES completion:nil];
         
     }
     if ([buttonTitle isEqualToString:BTN_TITLE_HELP]) {
