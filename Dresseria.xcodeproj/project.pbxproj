@@ -14,6 +14,8 @@
 		13068296178BEC1B0093FDD0 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13068292178BEC1B0093FDD0 /* SessionManager.m */; };
 		134A947F177167980029B5E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A947E177167980029B5E8 /* CoreLocation.framework */; };
 		134A9481177168090029B5E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A9480177168090029B5E8 /* MapKit.framework */; };
+		1357045F179C51F300EF6123 /* Store in Resources */ = {isa = PBXBuildFile; fileRef = 1357045E179C51F300EF6123 /* Store */; };
+		13570460179C51F300EF6123 /* Store in Resources */ = {isa = PBXBuildFile; fileRef = 1357045E179C51F300EF6123 /* Store */; };
 		1363422D176D34BB00ABA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422C176D34BB00ABA72D /* Foundation.framework */; };
 		1363422F176D34BB00ABA72D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422E176D34BB00ABA72D /* CoreGraphics.framework */; };
 		13634231176D34BB00ABA72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13634230176D34BB00ABA72D /* UIKit.framework */; };
@@ -54,6 +56,7 @@
 		13068292178BEC1B0093FDD0 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		134A947E177167980029B5E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		134A9480177168090029B5E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1357045E179C51F300EF6123 /* Store */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Store; sourceTree = "<group>"; };
 		13634229176D34BB00ABA72D /* Dresseria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dresseria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1363422C176D34BB00ABA72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1363422E176D34BB00ABA72D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -159,6 +162,7 @@
 		13634232176D34BB00ABA72D /* Dresseria */ = {
 			isa = PBXGroup;
 			children = (
+				1357045E179C51F300EF6123 /* Store */,
 				1306828C178BEB160093FDD0 /* Scanner */,
 				13F5CFF117716303004C4BE5 /* weather */,
 				1363423B176D34BB00ABA72D /* AppDelegate.h */,
@@ -296,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1357045F179C51F300EF6123 /* Store in Resources */,
 				13634243176D34BB00ABA72D /* Main_iPad.storyboard in Resources */,
 				1377DA691796445B0011DDA4 /* ReceiveViewController.xib in Resources */,
 				13634248176D34BB00ABA72D /* Images.xcassets in Resources */,
@@ -308,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13570460179C51F300EF6123 /* Store in Resources */,
 				1377DA6A1796445B0011DDA4 /* ReceiveViewController.xib in Resources */,
 				13634259176D34BB00ABA72D /* InfoPlist.strings in Resources */,
 			);
