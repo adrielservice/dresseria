@@ -10,6 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 
 #import "ReceiveViewController.h"
+#import "Store/MasterViewController.h"
 
 @interface MainViewController ()
 
@@ -95,6 +96,16 @@
     [actionSheet showInView:self.view];
 }
 
+- (IBAction) shop:(id)sender {
+    // #warning You must sign up for a Partner ID at http://shopsense.shopstyle.com/
+	/// alternativly you can add a string valued key with the appropriate id named ShopSensePartnerID to the bundle *.plist
+	[[PSSClient sharedClient] setPartnerID:@"uid25-23312005-3"];
+	
+	MasterViewController *masterViewController = [[MasterViewController alloc] initWithStyle:UITableViewStylePlain];
+ 	masterViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal; 
+    [self.navigationController pushViewController:masterViewController animated:YES];
+}
+
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
     
     //Get the name of the current pressed button
@@ -119,5 +130,7 @@
         NSLog(@"Cancel pressed --> Cancel ActionSheet");
     }
 }
+
+
 
 @end

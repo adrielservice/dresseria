@@ -39,7 +39,7 @@
 	self.title = @"Search: 'Red Dress'";
 	
 	PSSProductQuery *productQuery = [[PSSProductQuery alloc] init];
-	productQuery.searchTerm = @"blue panties";
+	productQuery.searchTerm = @"Red Dress";
 	__weak typeof(self) weakSelf = self;
 	[[PSSClient sharedClient] searchProductsWithQuery:productQuery offset:nil limit:nil success:^(NSUInteger totalCount, NSArray *availableFilterTypes, NSArray *products) {
 		weakSelf.products = products;

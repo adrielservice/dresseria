@@ -14,8 +14,30 @@
 		13068296178BEC1B0093FDD0 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13068292178BEC1B0093FDD0 /* SessionManager.m */; };
 		134A947F177167980029B5E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A947E177167980029B5E8 /* CoreLocation.framework */; };
 		134A9481177168090029B5E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A9480177168090029B5E8 /* MapKit.framework */; };
-		1357045F179C51F300EF6123 /* Store in Resources */ = {isa = PBXBuildFile; fileRef = 1357045E179C51F300EF6123 /* Store */; };
-		13570460179C51F300EF6123 /* Store in Resources */ = {isa = PBXBuildFile; fileRef = 1357045E179C51F300EF6123 /* Store */; };
+		13570475179CB27700EF6123 /* BrandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570463179CB27700EF6123 /* BrandsViewController.m */; };
+		13570476179CB27700EF6123 /* BrandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570463179CB27700EF6123 /* BrandsViewController.m */; };
+		13570477179CB27700EF6123 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570465179CB27700EF6123 /* CategoriesViewController.m */; };
+		13570478179CB27700EF6123 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570465179CB27700EF6123 /* CategoriesViewController.m */; };
+		13570479179CB27700EF6123 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570467179CB27700EF6123 /* ColorsViewController.m */; };
+		1357047A179CB27700EF6123 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570467179CB27700EF6123 /* ColorsViewController.m */; };
+		1357047B179CB27700EF6123 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13570468179CB27700EF6123 /* Default-568h@2x.png */; };
+		1357047C179CB27700EF6123 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13570468179CB27700EF6123 /* Default-568h@2x.png */; };
+		1357047D179CB27700EF6123 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13570469179CB27700EF6123 /* Default.png */; };
+		1357047E179CB27700EF6123 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13570469179CB27700EF6123 /* Default.png */; };
+		1357047F179CB27700EF6123 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357046A179CB27700EF6123 /* Default@2x.png */; };
+		13570480179CB27700EF6123 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357046A179CB27700EF6123 /* Default@2x.png */; };
+		13570481179CB27700EF6123 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1357046C179CB27700EF6123 /* MasterViewController.m */; };
+		13570482179CB27700EF6123 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1357046C179CB27700EF6123 /* MasterViewController.m */; };
+		13570483179CB27700EF6123 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357046D179CB27700EF6123 /* Placeholder.png */; };
+		13570484179CB27700EF6123 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357046D179CB27700EF6123 /* Placeholder.png */; };
+		13570485179CB27700EF6123 /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357046E179CB27700EF6123 /* Placeholder@2x.png */; };
+		13570486179CB27700EF6123 /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357046E179CB27700EF6123 /* Placeholder@2x.png */; };
+		13570487179CB27700EF6123 /* ProductHistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570470179CB27700EF6123 /* ProductHistogramViewController.m */; };
+		13570488179CB27700EF6123 /* ProductHistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570470179CB27700EF6123 /* ProductHistogramViewController.m */; };
+		13570489179CB27700EF6123 /* RetailersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570472179CB27700EF6123 /* RetailersViewController.m */; };
+		1357048A179CB27700EF6123 /* RetailersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570472179CB27700EF6123 /* RetailersViewController.m */; };
+		1357048B179CB27700EF6123 /* SearchProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570474179CB27700EF6123 /* SearchProductsViewController.m */; };
+		1357048C179CB27700EF6123 /* SearchProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13570474179CB27700EF6123 /* SearchProductsViewController.m */; };
 		1363422D176D34BB00ABA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422C176D34BB00ABA72D /* Foundation.framework */; };
 		1363422F176D34BB00ABA72D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363422E176D34BB00ABA72D /* CoreGraphics.framework */; };
 		13634231176D34BB00ABA72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13634230176D34BB00ABA72D /* UIKit.framework */; };
@@ -56,7 +78,25 @@
 		13068292178BEC1B0093FDD0 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		134A947E177167980029B5E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		134A9480177168090029B5E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		1357045E179C51F300EF6123 /* Store */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Store; sourceTree = "<group>"; };
+		13570462179CB27700EF6123 /* BrandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandsViewController.h; sourceTree = "<group>"; };
+		13570463179CB27700EF6123 /* BrandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandsViewController.m; sourceTree = "<group>"; };
+		13570464179CB27700EF6123 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		13570465179CB27700EF6123 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		13570466179CB27700EF6123 /* ColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		13570467179CB27700EF6123 /* ColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		13570468179CB27700EF6123 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		13570469179CB27700EF6123 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1357046A179CB27700EF6123 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1357046B179CB27700EF6123 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1357046C179CB27700EF6123 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1357046D179CB27700EF6123 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		1357046E179CB27700EF6123 /* Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Placeholder@2x.png"; sourceTree = "<group>"; };
+		1357046F179CB27700EF6123 /* ProductHistogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductHistogramViewController.h; sourceTree = "<group>"; };
+		13570470179CB27700EF6123 /* ProductHistogramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductHistogramViewController.m; sourceTree = "<group>"; };
+		13570471179CB27700EF6123 /* RetailersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetailersViewController.h; sourceTree = "<group>"; };
+		13570472179CB27700EF6123 /* RetailersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetailersViewController.m; sourceTree = "<group>"; };
+		13570473179CB27700EF6123 /* SearchProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchProductsViewController.h; sourceTree = "<group>"; };
+		13570474179CB27700EF6123 /* SearchProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchProductsViewController.m; sourceTree = "<group>"; };
 		13634229176D34BB00ABA72D /* Dresseria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dresseria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1363422C176D34BB00ABA72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1363422E176D34BB00ABA72D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +164,32 @@
 			name = Scanner;
 			sourceTree = "<group>";
 		};
+		13570461179CB27700EF6123 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				13570462179CB27700EF6123 /* BrandsViewController.h */,
+				13570463179CB27700EF6123 /* BrandsViewController.m */,
+				13570464179CB27700EF6123 /* CategoriesViewController.h */,
+				13570465179CB27700EF6123 /* CategoriesViewController.m */,
+				13570466179CB27700EF6123 /* ColorsViewController.h */,
+				13570467179CB27700EF6123 /* ColorsViewController.m */,
+				13570468179CB27700EF6123 /* Default-568h@2x.png */,
+				13570469179CB27700EF6123 /* Default.png */,
+				1357046A179CB27700EF6123 /* Default@2x.png */,
+				1357046B179CB27700EF6123 /* MasterViewController.h */,
+				1357046C179CB27700EF6123 /* MasterViewController.m */,
+				1357046D179CB27700EF6123 /* Placeholder.png */,
+				1357046E179CB27700EF6123 /* Placeholder@2x.png */,
+				1357046F179CB27700EF6123 /* ProductHistogramViewController.h */,
+				13570470179CB27700EF6123 /* ProductHistogramViewController.m */,
+				13570471179CB27700EF6123 /* RetailersViewController.h */,
+				13570472179CB27700EF6123 /* RetailersViewController.m */,
+				13570473179CB27700EF6123 /* SearchProductsViewController.h */,
+				13570474179CB27700EF6123 /* SearchProductsViewController.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		13634220176D34BB00ABA72D = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +228,7 @@
 		13634232176D34BB00ABA72D /* Dresseria */ = {
 			isa = PBXGroup;
 			children = (
-				1357045E179C51F300EF6123 /* Store */,
+				13570461179CB27700EF6123 /* Store */,
 				1306828C178BEB160093FDD0 /* Scanner */,
 				13F5CFF117716303004C4BE5 /* weather */,
 				1363423B176D34BB00ABA72D /* AppDelegate.h */,
@@ -300,12 +366,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1357045F179C51F300EF6123 /* Store in Resources */,
+				13570485179CB27700EF6123 /* Placeholder@2x.png in Resources */,
+				1357047F179CB27700EF6123 /* Default@2x.png in Resources */,
+				13570483179CB27700EF6123 /* Placeholder.png in Resources */,
 				13634243176D34BB00ABA72D /* Main_iPad.storyboard in Resources */,
 				1377DA691796445B0011DDA4 /* ReceiveViewController.xib in Resources */,
 				13634248176D34BB00ABA72D /* Images.xcassets in Resources */,
 				13634240176D34BB00ABA72D /* Main_iPhone.storyboard in Resources */,
+				1357047D179CB27700EF6123 /* Default.png in Resources */,
 				13634237176D34BB00ABA72D /* InfoPlist.strings in Resources */,
+				1357047B179CB27700EF6123 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,9 +383,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13570460179C51F300EF6123 /* Store in Resources */,
 				1377DA6A1796445B0011DDA4 /* ReceiveViewController.xib in Resources */,
+				13570484179CB27700EF6123 /* Placeholder.png in Resources */,
 				13634259176D34BB00ABA72D /* InfoPlist.strings in Resources */,
+				13570480179CB27700EF6123 /* Default@2x.png in Resources */,
+				1357047C179CB27700EF6123 /* Default-568h@2x.png in Resources */,
+				1357047E179CB27700EF6123 /* Default.png in Resources */,
+				13570486179CB27700EF6123 /* Placeholder@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,10 +433,17 @@
 			files = (
 				13068295178BEC1B0093FDD0 /* SessionManager.m in Sources */,
 				13068293178BEC1B0093FDD0 /* ReceiveViewController.m in Sources */,
+				13570481179CB27700EF6123 /* MasterViewController.m in Sources */,
+				13570477179CB27700EF6123 /* CategoriesViewController.m in Sources */,
+				13570479179CB27700EF6123 /* ColorsViewController.m in Sources */,
 				13F5CFF417716350004C4BE5 /* WeatherAdapter.m in Sources */,
+				13570489179CB27700EF6123 /* RetailersViewController.m in Sources */,
 				13634246176D34BB00ABA72D /* MainViewController.m in Sources */,
 				1363423D176D34BB00ABA72D /* AppDelegate.m in Sources */,
+				13570487179CB27700EF6123 /* ProductHistogramViewController.m in Sources */,
 				13634239176D34BB00ABA72D /* main.m in Sources */,
+				13570475179CB27700EF6123 /* BrandsViewController.m in Sources */,
+				1357048B179CB27700EF6123 /* SearchProductsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +455,13 @@
 				13068294178BEC1B0093FDD0 /* ReceiveViewController.m in Sources */,
 				13068296178BEC1B0093FDD0 /* SessionManager.m in Sources */,
 				1363425B176D34BC00ABA72D /* DresseriaTests.m in Sources */,
+				13570482179CB27700EF6123 /* MasterViewController.m in Sources */,
+				13570488179CB27700EF6123 /* ProductHistogramViewController.m in Sources */,
+				1357048A179CB27700EF6123 /* RetailersViewController.m in Sources */,
+				13570478179CB27700EF6123 /* CategoriesViewController.m in Sources */,
+				1357048C179CB27700EF6123 /* SearchProductsViewController.m in Sources */,
+				1357047A179CB27700EF6123 /* ColorsViewController.m in Sources */,
+				13570476179CB27700EF6123 /* BrandsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

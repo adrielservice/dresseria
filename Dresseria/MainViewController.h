@@ -16,5 +16,6 @@
 - (IBAction) updateWeather:(id)sender;
 
 - (IBAction) newItem:(id)sender;
+- (IBAction) shop:(id)sender;
 
 @end
